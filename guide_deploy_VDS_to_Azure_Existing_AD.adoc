@@ -5,7 +5,7 @@ keywords: Windows Virtual Desktop
 summary: Step-by-step guide to deploy VDS into Azure for Existing AD deployments
 ---
 
-= WVD Deployment Guide
+= WVD Azure Deployment Guide for Existing AD deployments
 :hardbreaks:
 :nofooter:
 :icons: font

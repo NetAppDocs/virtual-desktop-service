@@ -5,7 +5,7 @@ keywords: Windows Virtual Desktop
 summary: VDS prerequisites
 ---
 
-= WVD Deployment Guide
+= WVD Prerequisites
 :hardbreaks:
 :nofooter:
 :icons: font
