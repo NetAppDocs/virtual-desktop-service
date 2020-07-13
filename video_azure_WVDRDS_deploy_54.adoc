@@ -5,7 +5,7 @@ keywords: Windows Virtual Desktop
 summary: Deploy WVD or RDS Into Azure with NetApp VDS
 ---
 
-= Deploy WVD or RDS Into Azure with NetApp VDS v5.4
+= Deploy WVD or RDS Into Azure with NetApp VDS
 :hardbreaks:
 :nofooter:
 :icons: font

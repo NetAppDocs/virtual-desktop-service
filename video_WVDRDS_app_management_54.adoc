@@ -5,7 +5,7 @@ keywords: Windows Virtual Desktop
 summary: Automate Application Management for WVD and RDS with NetApp VDS
 ---
 
-= Automate Application Management for WVD and RDS with NetApp VDS v5.4
+= Automate Application Management for WVD and RDS with NetApp VDS
 :hardbreaks:
 :nofooter:
 :icons: font

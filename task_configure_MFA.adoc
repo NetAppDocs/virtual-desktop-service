@@ -5,7 +5,7 @@ keywords: Windows Virtual Desktop
 summary: Configure Multi-Factor Authentication
 ---
 
-= Multi-Factor Authentication (MFA)
+= Multi-Factor Authentication
 :hardbreaks:
 :nofooter:
 :icons: font

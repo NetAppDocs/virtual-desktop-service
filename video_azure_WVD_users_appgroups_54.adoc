@@ -5,7 +5,7 @@ keywords: Windows Virtual Desktop
 summary: Add and Manage WVD Users and App Groups in Azure with NetApp VDS
 ---
 
-= Add and Manage WVD Users and App Groups in Azure with NetApp VDS v5.4
+= Add and Manage WVD Users and App Groups in Azure with NetApp VDS
 
 :hardbreaks:
 :nofooter:

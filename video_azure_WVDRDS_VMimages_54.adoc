@@ -5,7 +5,7 @@ keywords: Windows Virtual Desktop
 summary: Create and Customize VM Images for WVD and RDS with NetApp VDS
 ---
 
-= Create and Customize VM Images for WVD and RDS with NetApp VDS v5.4
+= Create and Customize VM Images for WVD and RDS with NetApp VDS
 :hardbreaks:
 :nofooter:
 :icons: font
