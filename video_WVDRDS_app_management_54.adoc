@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: video_WVDRDS_app_management_54.html
-summary: "Automate Application Management for WVD and RDS with NetApp VDS v5.4"
-keywords: ""
+summary: Automate Application Management for WVD and RDS with NetApp VDS v5.4
+keywords:
 ---
 
 = Automate Application Management for WVD and RDS with NetApp VDS v5.4
