@@ -6,7 +6,6 @@ summary: Add and Manage WVD Users and App Groups in Azure with NetApp VDS
 ---
 
 = Add and Manage WVD Users and App Groups in Azure with NetApp VDS
-
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -19,5 +18,3 @@ Add and Manage WVD Users and App Groups in Azure with NetApp VDS
 == Overview
 
 video::RftG7v9n8hw[youtube]
-
-_Last version: June 8, 2020_

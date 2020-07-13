@@ -18,5 +18,3 @@ Create and Customize VM Images for WVD and RDS with NetApp VDS
 == Overview
 
 video::D4gNs_L-_wg[youtube]
-
-_Last version: June 8, 2020_

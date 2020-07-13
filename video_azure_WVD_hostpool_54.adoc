@@ -6,7 +6,6 @@ summary: Create a WVD Host Pool with NetApp VDS
 ---
 
 = Create a WVD Host Pool with NetApp VDS
-
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -19,5 +18,3 @@ Create a WVD Host Pool with NetApp VDS
 == Overview
 
 video::kaHZm9yCv8g[youtube]
-
-_Last version: June 5, 2020_

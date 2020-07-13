@@ -18,5 +18,3 @@ Deploy WVD or RDS Into Azure with NetApp VDS
 == Overview
 
 video::Gp2DzWBc0Go[youtube]
-
-_Last version: June 8, 2020_

@@ -18,5 +18,3 @@ Automate Application Management for WVD and RDS with NetApp VDS
 == Overview
 
 video::19NpO8v15BE[youtube]
-
-_Last version: June 5, 2020_

@@ -16,5 +16,3 @@ summary: VDS Components and Permissions
 VDS Components and Permissions
 
 Download the current link:media/NetApp-VDS-and-WVD-Components-and-Permissions-2020.05.26.pdf[Components and Permissions PDF here].
-
-_Last version: May 26, 2020_
