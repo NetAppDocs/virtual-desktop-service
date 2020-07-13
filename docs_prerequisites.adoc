@@ -2,7 +2,6 @@
 sidebar: sidebar
 permalink: docs_prerequisites.html
 summary: VDS prerequisites
-keywords:
 ---
 
 = WVD Deployment Guide

@@ -2,7 +2,6 @@
 sidebar: sidebar
 permalink: video_azure_WVD_hostpool_54.html
 summary: Create a WVD Host Pool with NetApp VDS v5.4
-keywords: 
 ---
 
 = Create a WVD Host Pool with NetApp VDS v5.4

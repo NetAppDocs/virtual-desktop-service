@@ -2,7 +2,6 @@
 sidebar: sidebar
 permalink: guide_application_entitlement.adoc
 summary: Step-by-step guide to deploy Applications to end users in VDS
-keywords:
 ---
 
 = WVD Deployment Guide

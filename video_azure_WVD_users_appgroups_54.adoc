@@ -2,7 +2,6 @@
 sidebar: sidebar
 permalink: video_azure_WVD_users_appgroups_54.html
 summary: Add and Manage WVD Users and App Groups in Azure with NetApp VDS v5.4
-keywords: 
 ---
 
 = Add and Manage WVD Users and App Groups in Azure with NetApp VDS v5.4
