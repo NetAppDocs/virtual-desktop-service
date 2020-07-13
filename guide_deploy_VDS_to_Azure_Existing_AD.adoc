@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: guide_deploy_VDS_to_Azure_Existing_AD.html
-summary: Step-by-step guide to deploy VDS into Azure for Exisitng AD deployments
-keywords:
+summary: "Step-by-step guide to deploy VDS into Azure for Existing AD deployments"
+keywords: ""
 ---
 
 = WVD Deployment Guide
