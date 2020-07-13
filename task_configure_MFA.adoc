@@ -17,15 +17,14 @@ keywords: ""
 :keywords: Windows Virtual Desktop
 
 [.lead]
-== Overview
-NetApp Virtual Desktop Service (VDS) includes an SMS/Email based MFA service at no additional charge.  This service is independent of any other services (e.g. Azure Conditional Access) and can be used to secure administrator logins to VDS and user logins to virtaul desktops.
+NetApp Virtual Desktop Service (VDS) includes an SMS/Email based MFA service at no additional charge.  This service is independent of any other services (e.g. Azure Conditional Access) and can be used to secure administrator logins to VDS and user logins to virtual desktops.
 
 == MFA Basics
 * VDS MFA can be assigned to admin users, individual end users or applied to all end users
 * VDS MFA can send SMS or Email notifications
 * VDS MFA has a self-serivce initial setup and reset function
 
-= Guide Scope
+== Guide Scope
 This guide walks you thru the setup of MFA along with an illustration of the end user experience
 
 .This guide covers the following subjects:
