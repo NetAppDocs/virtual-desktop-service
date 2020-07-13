@@ -13,6 +13,8 @@ summary: Automate Application Management for WVD and RDS with NetApp VDS
 :imagesdir: ./media/
 
 [.lead]
+Automate Application Management for WVD and RDS with NetApp VDS
+
 == Overview
 
 video::19NpO8v15BE[youtube]

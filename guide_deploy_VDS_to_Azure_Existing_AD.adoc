@@ -13,6 +13,8 @@ summary: Step-by-step guide to deploy VDS into Azure for Existing AD deployments
 :imagesdir: ./media/
 
 [.lead]
+Step-by-step guide to deploy VDS into Azure for Existing AD deployments
+
 == Overview
 VDS Setup has the ability to connect a new deployment to an existing AD structure. These instruction cover that option in detail.
 This article does not stand-alone, rather it is a detailed explanation of an alternative to the New AD option covered in the link:guide_deploy_VDS_to_Azure.adoc[WVD Deployment Guide]

@@ -13,6 +13,8 @@ summary: Deploy WVD or RDS Into Azure with NetApp VDS
 :imagesdir: ./media/
 
 [.lead]
+Deploy WVD or RDS Into Azure with NetApp VDS
+
 == Overview
 
 video::Gp2DzWBc0Go[youtube]

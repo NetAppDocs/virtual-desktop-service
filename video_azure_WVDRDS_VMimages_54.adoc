@@ -13,6 +13,8 @@ summary: Create and Customize VM Images for WVD and RDS with NetApp VDS
 :imagesdir: ./media/
 
 [.lead]
+Create and Customize VM Images for WVD and RDS with NetApp VDS
+
 == Overview
 
 video::D4gNs_L-_wg[youtube]

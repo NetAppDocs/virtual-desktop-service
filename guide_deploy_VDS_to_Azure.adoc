@@ -13,6 +13,8 @@ summary: Step-by-step guide to deploy VDS into Azure
 :imagesdir: ./media/
 
 [.lead]
+Step-by-step guide to deploy VDS into Azure
+
 == Overview
 This guide will provide the step by step instructions to create a Windows Virtual Desktop (WVD) deployment utilizing NetApp Virtual Desktop Service (VDS) in Azure.
 

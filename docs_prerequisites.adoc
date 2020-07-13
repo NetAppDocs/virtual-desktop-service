@@ -13,6 +13,8 @@ summary: VDS prerequisites
 :imagesdir: ./media/
 
 [.lead]
+VDS prerequisites
+
 == Overview
 
 Download the current link:media/NetApp-VDS-and-WVD-Requirements-.pdf[VDS Prerequisites PDF here].

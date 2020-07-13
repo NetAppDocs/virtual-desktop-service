@@ -14,6 +14,8 @@ summary: Create a WVD Host Pool with NetApp VDS
 :imagesdir: ./media/
 
 [.lead]
+Create a WVD Host Pool with NetApp VDS
+
 == Overview
 
 video::kaHZm9yCv8g[youtube]

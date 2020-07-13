@@ -15,8 +15,6 @@ summary: Welcome to the documentation portal for Virtual Desktop Service.
 [.lead]
 NetApp’s Virtual Desktop service solves the complexity of deploying and managing virtual desktops in the public cloud, delivered both as a flexible software service to manage your Virtual Desktop Infrastructure (VDI), or as a fully managed VDI as a Service platform. The Virtual Desktop Service removes the complexity of deploying desktops in the cloud taking the hundreds of tasks that took 2-3 days to deploy into just a few hours.
 
-//VIDEO HERE- TBD
-
 Virtual Desktop Service Benefits:
 
 * *Reduce Infrastructure Costs*
