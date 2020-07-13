@@ -1,19 +1,16 @@
 ---
 sidebar: sidebar
 permalink: video_azure_WVDRDS_deploy_54.html
-summary: Deploy WVD or RDS Into Azure with NetApp VDS v5.4
+keywords: Windows Virtual Desktop
+summary: Deploy WVD or RDS Into Azure with NetApp VDS
 ---
 
 = Deploy WVD or RDS Into Azure with NetApp VDS v5.4
-
-:toc: macro
 :hardbreaks:
-:toclevels: 2
 :nofooter:
 :icons: font
 :linkattrs:
 :imagesdir: ./media/
-:keywords: Windows Virtual Desktop
 
 [.lead]
 == Overview

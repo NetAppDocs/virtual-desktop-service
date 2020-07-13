@@ -1,19 +1,16 @@
 ---
 sidebar: sidebar
 permalink: docs_prerequisites.html
+keywords: Windows Virtual Desktop
 summary: VDS prerequisites
 ---
 
 = WVD Deployment Guide
-
-:toc: macro
 :hardbreaks:
-:toclevels: 2
 :nofooter:
 :icons: font
 :linkattrs:
 :imagesdir: ./media/
-:keywords: Windows Virtual Desktop
 
 [.lead]
 == Overview

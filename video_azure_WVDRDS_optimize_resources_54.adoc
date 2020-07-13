@@ -1,19 +1,16 @@
 ---
 sidebar: sidebar
 permalink: video_azure_WVDRDS_optimize_resources_54.html
-summary: Create a WVD Host Pool with NetApp VDS v5.4
+keywords: Windows Virtual Desktop
+summary: Create a WVD Host Pool with NetApp VDS
 ---
 
 = Create a WVD Host Pool with NetApp VDS v5.4
-
-:toc: macro
 :hardbreaks:
-:toclevels: 2
 :nofooter:
 :icons: font
 :linkattrs:
 :imagesdir: ./media/
-:keywords: Windows Virtual Desktop
 
 [.lead]
 == Overview

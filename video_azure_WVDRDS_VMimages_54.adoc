@@ -1,19 +1,16 @@
 ---
 sidebar: sidebar
 permalink: video_azure_WVDRDS_VMimages_54.html
-summary: Create and Customize VM Images for WVD and RDS with NetApp VDS v5.4
+keywords: Windows Virtual Desktop
+summary: Create and Customize VM Images for WVD and RDS with NetApp VDS
 ---
 
 = Create and Customize VM Images for WVD and RDS with NetApp VDS v5.4
-
-:toc: macro
 :hardbreaks:
-:toclevels: 2
 :nofooter:
 :icons: font
 :linkattrs:
 :imagesdir: ./media/
-:keywords: Windows Virtual Desktop
 
 [.lead]
 == Overview

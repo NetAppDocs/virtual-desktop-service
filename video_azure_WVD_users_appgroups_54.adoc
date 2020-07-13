@@ -1,19 +1,17 @@
 ---
 sidebar: sidebar
 permalink: video_azure_WVD_users_appgroups_54.html
-summary: Add and Manage WVD Users and App Groups in Azure with NetApp VDS v5.4
+keywords: Windows Virtual Desktop
+summary: Add and Manage WVD Users and App Groups in Azure with NetApp VDS
 ---
 
 = Add and Manage WVD Users and App Groups in Azure with NetApp VDS v5.4
 
-:toc: macro
 :hardbreaks:
-:toclevels: 2
 :nofooter:
 :icons: font
 :linkattrs:
 :imagesdir: ./media/
-:keywords: Windows Virtual Desktop
 
 [.lead]
 == Overview

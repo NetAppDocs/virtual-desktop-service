@@ -1,19 +1,16 @@
 ---
 sidebar: sidebar
 permalink: index.html
+keywords: Windows Virtual Desktop
 summary: Welcome to the documentation portal for Virtual Desktop Service.
 ---
 
 = Virtual Desktop Service documentation
-
-:toc: macro
 :hardbreaks:
-:toclevels: 2
 :nofooter:
 :icons: font
 :linkattrs:
 :imagesdir: ./media/
-:keywords: Windows Virtual Desktop
 
 [.lead]
 NetApp’s Virtual Desktop service solves the complexity of deploying and managing virtual desktops in the public cloud, delivered both as a flexible software service to manage your Virtual Desktop Infrastructure (VDI), or as a fully managed VDI as a Service platform. The Virtual Desktop Service removes the complexity of deploying desktops in the cloud taking the hundreds of tasks that took 2-3 days to deploy into just a few hours.

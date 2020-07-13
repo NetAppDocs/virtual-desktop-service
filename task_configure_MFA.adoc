@@ -1,19 +1,16 @@
 ---
 sidebar: sidebar
 permalink: task_configure_MFA.html
+keywords: Windows Virtual Desktop
 summary: Configure Multi-Factor Authentication
 ---
 
 = Multi-Factor Authentication (MFA)
-
-:toc: macro
 :hardbreaks:
-:toclevels: 2
 :nofooter:
 :icons: font
 :linkattrs:
 :imagesdir: ./media/
-:keywords: Windows Virtual Desktop
 
 [.lead]
 NetApp Virtual Desktop Service (VDS) includes an SMS/Email based MFA service at no additional charge.  This service is independent of any other services (e.g. Azure Conditional Access) and can be used to secure administrator logins to VDS and user logins to virtual desktops.

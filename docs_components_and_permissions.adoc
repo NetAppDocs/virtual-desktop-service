@@ -1,23 +1,18 @@
 ---
 sidebar: sidebar
 permalink: docs_components_and_permissions.html
+keywords: Windows Virtual Desktop
 summary: VDS Components and Permissions
 ---
 
 = WVD Deployment Guide
-
-:toc: macro
 :hardbreaks:
-:toclevels: 2
 :nofooter:
 :icons: font
 :linkattrs:
 :imagesdir: ./media/
-:keywords: Windows Virtual Desktop
 
 [.lead]
-== Overview
-
 Download the current link:media/NetApp-VDS-and-WVD-Components-and-Permissions-2020.05.26.pdf[Components and Permissions PDF here].
 
 _Last version: May 26, 2020_
