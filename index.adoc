@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: index.html
-keywords: Windows Virtual Desktop
+keywords: Windows Virtual Desktop, service
 summary: Welcome to the documentation portal for Virtual Desktop Service.
 ---
 
@@ -13,30 +13,4 @@ summary: Welcome to the documentation portal for Virtual Desktop Service.
 :imagesdir: ./media/
 
 [.lead]
-NetApp’s Virtual Desktop service solves the complexity of deploying and managing virtual desktops in the public cloud, delivered both as a flexible software service to manage your Virtual Desktop Infrastructure (VDI), or as a fully managed VDI as a Service platform. The Virtual Desktop Service removes the complexity of deploying desktops in the cloud taking the hundreds of tasks that took 2-3 days to deploy into just a few hours.
-
-Virtual Desktop Service Benefits:
-
-* *Reduce Infrastructure Costs*
-+
-Our customizable resource scheduling system optimizes infrastructure spend up to 50%.
-
-* *Reduce Risk*
-+
-Deploy desktops into logical workflows per cloud best practices; Such as Microsoft best practice WVD standards.
-
-* *Full Automation*
-+
-Event driven automation and orchestration engine leveraging your current scripts, making management so easy, general IT administrators can manage your cloud desktops!
-
-* *Turn-key*
-+
-Deploy as a do-it-yourself software management service for your choice of VDI environments or choose a fully managed WVD platform service.
-
-* *Multi-Cloud*
-+
-Control multiple tenants across AWS, Azure and Google with a single graphical user interface.
-
-* *Flexible Control*
-+
-Maximize business flexibility with a single portal to control every layer of your technology stack.
+NetApp’s Virtual Desktop service solves the complexity of deploying and managing virtual desktops in the public cloud, delivered both as a flexible software service to manage your Virtual Desktop Infrastructure, or as a fully managed VDI as a Service platform.
