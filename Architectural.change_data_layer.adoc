@@ -86,6 +86,6 @@ CWMGR1 contains a helper utility applications called TestVDC Tools which can bul
 . Connect to CWMGR1, navigate and run TestVdcTools.exe
 +
 image:storage10.png[]
-. Navigate to the _Operations_ tab and enter the new storage paths(s) for the storage layer.
+. Navigate to the _Operations_ tab and enter the new storage paths(s) for the storage layer then click _Execute Command_.
 +
 image:storage11.png[]
