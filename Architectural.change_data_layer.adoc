@@ -67,7 +67,7 @@ image:storage5.png[]
 +
 NOTE: This can also be set via a GPO policy if desired.
 
-. Edit the _VHDLocations_ value with the new value.  This should be the new MSB path plus _pro/profilecontainers_ as shown in the screenshot below.
+. Edit the _VHDLocations_ value with the new value.  This should be the new SMB path plus _pro/profilecontainers_ as shown in the screenshot below.
 +
 image:storage6.png[]
 
