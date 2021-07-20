@@ -1,0 +1,1523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head class="at-element-marker">
+  <title>Scripted Event Documentation - Ezeep Print App | NetApp Cloud Docs</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <meta http-equiv="language" content="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Scripted Event Documentation - Ezeep Print App | NetApp Cloud Docs" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://docs.netapp.com/us-en/virtual-desktop-service/scriptlibrary.EzeepPrintApp.html" />
+	<meta property="og:description" content="Script documentation - Ezeep Print App" />
+  <meta property="og:image" content="https://docs.netapp.com/us-en/virtual-desktop-service/images/logo-tophat-social.png" />
+  <meta property="og:image:alt" content="NetApp Logo" />
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="encoding" content="utf-8">
+  <meta http-equiv="nss-type" content="Product Documentation"/>
+  <meta http-equiv="nss-subtype" content="User Guide"/>
+  
+  <meta name="description" content="Script documentation - Ezeep Print App">
+  <meta name="keywords" content=" ">
+  
+  
+
+  <!-- Icons -->
+  <link rel="icon" href="/us-en/virtual-desktop-service/images/favicon.ico" type="image/x-icon">
+
+  <!-- RSS Feed -->
+  
+  <link rel="alternate" type="application/rss+xml" title="NetApp Cloud Docs" href="/us-en/virtual-desktop-service/feed.xml">
+  
+
+  <!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+
+  <!-- Elastic Search -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
+
+  <!-- Controls AsciiDoctor Admonition Blocks -->
+  <link rel="stylesheet" type="text/css" href="/us-en/virtual-desktop-service/css/font-awesome.min.css">
+
+  <!-- Controls the shadow effect for search dropdown menu -->
+  <link rel="stylesheet" href="/us-en/virtual-desktop-service/css/boxshadowproperties.css">
+
+  <!-- NetApp CSS controls the technical content -->
+  <link rel="stylesheet" type="text/css" href="/us-en/virtual-desktop-service/css/netapp.css">
+
+  <!-- WWW CSS Content -->
+  <link rel="stylesheet" type="text/css" href="/us-en/virtual-desktop-service/css/www-luci-dotcom.min.css">
+  <link rel="stylesheet" type="text/css" href="/us-en/virtual-desktop-service/css/www-netapp-dotcom.css">
+  <link rel="stylesheet" href="/us-en/virtual-desktop-service/css/www-netapp-library-critical.min.css" media="all" >
+  <link rel="stylesheet" href="/us-en/virtual-desktop-service/css/www-netapp-library-non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="stylesheet" href="/us-en/virtual-desktop-service/css/www-netapp-library-global-header-footer.min.css">
+
+  <!-- NetApp IE Customizations -->
+  <link rel="stylesheet" href='/us-en/virtual-desktop-service/css/na-utility.css' type='text/css'>
+  <link rel="stylesheet" href='/us-en/virtual-desktop-service/css/na-sidebar.css' type='text/css'>
+  <link rel='stylesheet' href='/us-en/virtual-desktop-service/css/clouddocs.css' type='text/css'>
+  <link rel='stylesheet' href='/us-en/virtual-desktop-service/css/na-pagenav.css' type='text/css'>
+
+  
+
+  
+  <link rel='stylesheet' href='/us-en/virtual-desktop-service/css/na-feature.css' type='text/css'>
+  
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+  <!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script>
+  
+    <script src='/us-en/virtual-desktop-service/js/na-search.js'></script>
+  
+
+  
+  <script src='/us-en/virtual-desktop-service/js/na-pagenav.js'></script>
+  
+
+  <link rel='stylesheet' href='/us-en/virtual-desktop-service/css/prism.css' type='text/css'>
+  <link rel='stylesheet' href='/us-en/virtual-desktop-service/css/prism-netapp.css' type='text/css'>
+
+
+  <script src='/us-en/virtual-desktop-service/js/na-utility.js'></script>
+  <script src='/us-en/virtual-desktop-service/js/clouddocs.js'></script>
+  <script>
+  if (document.location.hostname === "docs.netapp.com") {
+    var head = document.getElementsByTagName('head')[0];
+    var adobe = document.createElement("script");
+    adobe.type = "text/javascript";
+    adobe.src = "//assets.adobedtm.com/60287eadf1ee/c284da483c83/launch-e9ff3acac59f.min.js";
+    head.appendChild(adobe);
+  }
+  </script>
+  <script src='/us-en/virtual-desktop-service/js/jquery.navgoco.min.js'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src='/us-en/virtual-desktop-service/js/toc.js'></script>
+  <script src='/us-en/virtual-desktop-service/js/customscripts.js'></script>
+
+  <script>
+      $(document).ready(function() {
+          
+          var collapseOnInit = true;
+          
+
+          var navSettings = {
+              "caretHtml": '',
+              "accordion": collapseOnInit,
+              "openClass": 'active', // open
+              "save": false, // leave false or nav highlighting doesn't work right
+              "cookie": {
+                  "name": 'navgoco',
+                  "expires": false,
+                  "path": '/'
+              },
+              "slide": {
+                  "duration": 400,
+                  "easing": 'swing'
+              }
+          };
+
+          // Initialize navgoco with default options
+          $("#mysidebar").navgoco(navSettings);
+          
+
+          $("#collapseAll").click(function(e) {
+              e.preventDefault();
+              $("#mysidebar").navgoco('toggle', false);
+          });
+
+          $("#expandAll").click(function(e) {
+              e.preventDefault();
+              $("#mysidebar").navgoco('toggle', true);
+          });
+
+      });
+
+  </script>
+  <script>
+      $(document).ready(function() {
+          $("#tg-sb-link").click(function() {
+              $("#tg-sb-sidebar").toggle();
+              $("#tg-sb-content").toggleClass('col-md-9');
+              $("#tg-sb-content").toggleClass('col-md-12');
+              $("#tg-sb-icon").toggleClass('fa-toggle-on');
+              $("#tg-sb-icon").toggleClass('fa-toggle-off');
+          });
+      });
+  </script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-81697994-3"></script>
+  <script>
+  if (document.location.hostname === "docs.netapp.com") {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-81697994-3');
+  }
+  </script>
+</head>
+
+
+  <body class role="document">
+    <div id="page" class="n-off-canvas-menu">
+      <div class="n-off-canvas-menu__menu"><!--TODO: Add offcanvas code --></div>
+      <div class="n-off-canvas-menu__content-wrap">
+        <header class="site-header" id="banner">
+  <!-- Start top_hat -->
+  <div class="n-top-hat">
+    <div class="n-container">
+      <div class="n-top-hat__cross-property-nav">
+        <ul class="n-top-hat__list">
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/products-a-z/" class="n-top-hat__link">Product and Solutions</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/support-and-training/netapp-university/" class="n-top-hat__link">Support and Training</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://cloud.netapp.com" class="n-top-hat__link">Cloud Central</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://community.netapp.com/" class="n-top-hat__link">Community</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://blog.netapp.com/" class="n-top-hat__link">Blog</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://customers.netapp.com/en/" class="n-top-hat__link">Customer Stories</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/us/contact-us/index.aspx" target="_self" class="n-top-hat__link" data-ntap-ui="contact-us">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="n-top-hat__utils">
+        <ul class="n-top-hat__list">
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/us/contact-us/index.aspx" target="_self" class="n-top-hat__link" data-ntap-ui="contact-us">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End top_hat -->
+
+  <!-- Start property bar -->
+  <style>
+    .n-property-navigation-bar__menus--desktop-experience .n-menu--mega__default-content__heading span {
+    color: #34B0FF;
+    }
+  </style>
+  <div class="n-property-bar " data-ntap-ui="sticky-nav">
+    <div class="n-property-bar__inner-wrap">
+      <div class="n-property-bar__menu-toggle">
+        <a href="#" class="n-property-bar__menu-toggle-link">
+          <span class="n-property-bar__menu-toggle-text">Menu</span>
+          <svg class="n-icon-bars n-property-bar__menu-toggle-icon" aria-labelledby="title">
+            <title>bars</title>
+            <use xlink:href="/us-en/virtual-desktop-service/common/svg/sprite.svg#bars"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="n-property-bar__property-mark ">
+        <a href="https://www.netapp.com" class="n-property-bar__property-link">
+          <div class="n-property-bar__logo">
+            <svg class="n-icon-netapp-mark n-icon-netapp-mark n-property-bar__netapp-mark-icon" aria-labelledby="title">
+              <title>netapp-mark</title>
+              <use xlink:href="/us-en/virtual-desktop-service/common/svg/sprite.svg#netapp-mark"></use>
+            </svg>
+            <svg class="n-icon-netapp-logo n-property-bar__logo-svg" aria-labelledby="title">
+              <title>netapp-logo</title>
+              <use xlink:href="/us-en/virtual-desktop-service/common/svg/sprite.svg#netapp-logo"></use>
+            </svg>
+          </div>
+        </a>
+      </div>
+
+      
+      <div class="search-property-bar">
+        <div id="search-demo-container" class="searchbox n-property-bar__search">
+          <div id="react-search" data-type="widget" data-placeholder="Search Documentation" data-no-results-found="No results were found for {query}" data-did-you-mean="Search for {suggestion}." data-no-results-found-did-you-mean="No results found for {query}. Did you mean {suggestion}?" data-results-found="{hitCount} results found"  ></div>
+          <button class="n-property-bar__search-toggle-button" type="button">
+            <svg class="n-icon-search n-property-bar__search-toggle-button-icon" aria-labelledby="title">
+              <title>search</title>
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/us-en/virtual-desktop-service/common/svg/sprite.svg#search"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="n-property-bar__toolbar"><!-- Start Language Selector --><!-- End Language Selector -->
+
+    <div class="n-property-bar__cta"></div>
+  </div>
+  <script>
+    $(function(){
+        var currentLocalization = $('html').attr('lang');
+
+        var localizationsDictionary = {
+            "en-CA" : "https://www.netapp.com/search/index.aspx?for_cr=canada&",
+            "en-IN" : "https://www.netapp.com/search/index.aspx?for_cr=india&",
+            "nl-NL" : "https://www.netapp.com/search/index.aspx?for_cr=netherlands&",
+            "ru-RU" : "https://www.netapp.com/search/index.aspx?for_cr=russia&",
+            "sv-SE" : "https://www.netapp.com/search/index.aspx?for_cr=sweden&",
+            "it-IT" : "https://www.netapp.com/search/index.aspx?for_cr=italy&",
+            "he-IL" : "https://www.netapp.com/search/index.aspx?for_cr=israel&",
+            "ko-KR" : "https://www.netapp.com/search/index.aspx?for_cr=korea&",
+            "zh-TW" : "https://www.netapp.com/search/index.aspx?for_cr=taiwan&",
+            "en-GB" : "https://www.netapp.com/search/index.aspx?for_cr=unitedkingdom&",
+            "en-SG" : "https://www.netapp.com/search/index.aspx?for_cr=asean&",
+            "en-AU" : "https://www.netapp.com/search/index.aspx?for_cr=australia&",
+            "pt-BR" : "https://www.netapp.com/search/index.aspx?for_cr=brasil&",
+            "de-CH" : "https://www.netapp.com/search/index.aspx?for_cr=switzerland&",
+            "es-MX" : "https://www.netapp.com/search/index.aspx?for_cr=mexico&"
+        };
+
+        if($('html').hasClass('ntap-whitelisted') && localizationsDictionary.hasOwnProperty(currentLocalization)) {
+            $('.n-property-bar__property-link').attr('href', '/');
+        }
+    });
+  </script>
+  <!-- End property bar -->
+</header>
+
+        <div class="ie-utility">
+  <div class="ie-menu">
+    <div class="n-breadcrumb">
+      <ul class="n-breadcrumb__list">
+        <li class="n-breadcrumb__list-item">
+          <a href="https://www.netapp.com">Home</a>
+        </li>
+        <li class="n-breadcrumb__list-item">
+          <a href="https://docs.netapp.com">Documentation</a>
+        </li>
+        
+        <li class="n-breadcrumb__list-item">
+          <a href="https://docs.netapp.com/us-en/cloud/">Cloud Docs</a>
+        </li>
+        
+
+        <li class="n-breadcrumb__list-item">
+          <a href="/us-en/virtual-desktop-service/">Virtual&nbsp;Desktop&nbsp;Service</a>
+        </li>
+        <li class="n-breadcrumb__list-item">
+          Scripted Event Documentation - Ezeep Print App
+        </li>
+      </ul>
+    </div>
+
+    <div style="clear: both"></div><!-- Main needs to have height -->
+  </div>
+</div>
+
+
+        <main id="n-main-content" class="n-main-content">
+          <!-- Start Documentation Content -->
+<div class="ie-main">
+  <!-- Sidebar Column -->
+  
+  <div class="col-md-3" >
+      <div class="n-pdf-header">
+  <a id="toggleButtonPdf" class="n-pdf-button" type="button">PDFs<span>
+    </span>
+  </a>
+</div>
+<ul id="toggleContainerPdf" class="n-pdf-body" style="display:none;"><div class="n-pdf-section">
+      <span class="n-pdf-section-title">Site</span>
+    </div>
+    <li>
+      <a target="_blank" href="/us-en/virtual-desktop-service/pdfs/fullsite-sidebar/Virtual_Desktop_Service_Documentation.pdf" >
+        <img src="/us-en/virtual-desktop-service/images/pdf.png" width="20" height="20"/>
+        Virtual Desktop Service Documentation
+      </a>
+    </li>
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              Sections
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/us-en/virtual-desktop-service/pdfs/sidebar/Deploying_with_VDS.pdf" >
+            <img src="/us-en/virtual-desktop-service/images/pdf.png" width="20" height="20"/>
+            Deploying with VDS
+          </a>
+        </li>
+        <span>
+          
+
+    
+      <span class="subfolders" style="display:none;">
+        
+        <li>
+          <a target="_blank" href="/us-en/virtual-desktop-service/pdfs/sidebar/Azure.pdf" >
+            <img src="/us-en/virtual-desktop-service/images/pdf.png" width="20" height="20"/>
+            Azure
+          </a>
+        </li>
+        <span>
+          
+
+    
+      <span class="subfolders" style="display:none;">
+        
+        <li>
+          <a target="_blank" href="/us-en/virtual-desktop-service/pdfs/sidebar/Azure_Virtual_Desktop.pdf" >
+            <img src="/us-en/virtual-desktop-service/images/pdf.png" width="20" height="20"/>
+            Azure Virtual Desktop
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+        <li>
+          <a target="_blank" href="/us-en/virtual-desktop-service/pdfs/sidebar/Google.pdf" >
+            <img src="/us-en/virtual-desktop-service/images/pdf.png" width="20" height="20"/>
+            Google
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              Sections
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/us-en/virtual-desktop-service/pdfs/sidebar/Architectural.pdf" >
+            <img src="/us-en/virtual-desktop-service/images/pdf.png" width="20" height="20"/>
+            Architectural
+          </a>
+        </li>
+        <span>
+          
+
+    
+      <span class="subfolders" style="display:none;">
+        
+        <li>
+          <a target="_blank" href="/us-en/virtual-desktop-service/pdfs/sidebar/Change_Data_Layer.pdf" >
+            <img src="/us-en/virtual-desktop-service/images/pdf.png" width="20" height="20"/>
+            Change Data Layer
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              Sections
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/us-en/virtual-desktop-service/pdfs/sidebar/Management.pdf" >
+            <img src="/us-en/virtual-desktop-service/images/pdf.png" width="20" height="20"/>
+            Management
+          </a>
+        </li>
+        <span>
+          
+
+    
+      <span class="subfolders" style="display:none;">
+        
+        <li>
+          <a target="_blank" href="/us-en/virtual-desktop-service/pdfs/sidebar/Deployments.pdf" >
+            <img src="/us-en/virtual-desktop-service/images/pdf.png" width="20" height="20"/>
+            Deployments
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+        <li>
+          <a target="_blank" href="/us-en/virtual-desktop-service/pdfs/sidebar/Applications.pdf" >
+            <img src="/us-en/virtual-desktop-service/images/pdf.png" width="20" height="20"/>
+            Applications
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+        <li>
+          <a target="_blank" href="/us-en/virtual-desktop-service/pdfs/sidebar/Scripted_Events.pdf" >
+            <img src="/us-en/virtual-desktop-service/images/pdf.png" width="20" height="20"/>
+            Scripted Events
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+        <li>
+          <a target="_blank" href="/us-en/virtual-desktop-service/pdfs/sidebar/Command_Center.pdf" >
+            <img src="/us-en/virtual-desktop-service/images/pdf.png" width="20" height="20"/>
+            Command Center
+          </a>
+        </li>
+        <span>
+          
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+        <li>
+          <a target="_blank" href="/us-en/virtual-desktop-service/pdfs/sidebar/Operations.pdf" >
+            <img src="/us-en/virtual-desktop-service/images/pdf.png" width="20" height="20"/>
+            Operations
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+        <li>
+          <a target="_blank" href="/us-en/virtual-desktop-service/pdfs/sidebar/User_Administration.pdf" >
+            <img src="/us-en/virtual-desktop-service/images/pdf.png" width="20" height="20"/>
+            User Administration
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+        <li>
+          <a target="_blank" href="/us-en/virtual-desktop-service/pdfs/sidebar/System_Administration.pdf" >
+            <img src="/us-en/virtual-desktop-service/images/pdf.png" width="20" height="20"/>
+            System Administration
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              Sections
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/us-en/virtual-desktop-service/pdfs/sidebar/Troubleshooting.pdf" >
+            <img src="/us-en/virtual-desktop-service/images/pdf.png" width="20" height="20"/>
+            Troubleshooting
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              Sections
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/us-en/virtual-desktop-service/pdfs/sidebar/Reference.pdf" >
+            <img src="/us-en/virtual-desktop-service/images/pdf.png" width="20" height="20"/>
+            Reference
+          </a>
+        </li>
+        <span>
+          
+
+    
+      <span class="subfolders" style="display:none;">
+        
+        <li>
+          <a target="_blank" href="/us-en/virtual-desktop-service/pdfs/sidebar/Release_notes.pdf" >
+            <img src="/us-en/virtual-desktop-service/images/pdf.png" width="20" height="20"/>
+            Release notes
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+        <li>
+          <a target="_blank" href="/us-en/virtual-desktop-service/pdfs/sidebar/Previous_versions.pdf" >
+            <img src="/us-en/virtual-desktop-service/images/pdf.png" width="20" height="20"/>
+            Previous versions
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+        <li>
+          <a target="_blank" href="/us-en/virtual-desktop-service/pdfs/sidebar/Script_Library_Documentation.pdf" >
+            <img src="/us-en/virtual-desktop-service/images/pdf.png" width="20" height="20"/>
+            Script Library Documentation
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+    <div class="n-pdf-section">
+  <span class="n-pdf-section-title">This page</span>
+</div>
+
+<li class="active">
+  <a target="_blank" href="/us-en/virtual-desktop-service/pdfs/pages/scriptlibrary.EzeepPrintApp.pdf" >
+    <img src="/us-en/virtual-desktop-service/images/pdf.png" width="20" height="20"/>
+    Scripted Event Documentation - Ezeep Print App
+  </a>
+</li>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+        <li>
+          <a target="_blank" href="/us-en/virtual-desktop-service/pdfs/sidebar/Advanced.pdf" >
+            <img src="/us-en/virtual-desktop-service/images/pdf.png" width="20" height="20"/>
+            Advanced
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              Sections
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/us-en/virtual-desktop-service/pdfs/sidebar/NetApp_VDS_v5_4_videos.pdf" >
+            <img src="/us-en/virtual-desktop-service/images/pdf.png" width="20" height="20"/>
+            NetApp VDS v5.4 videos
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+</ul>
+
+<script>
+  $("#toggleContainerPdf li.active").parents('li').toggle('display');
+  $("#toggleContainerPdf li.active").parents('span.subfolders').toggle('display');
+  $("#toggleButtonPdf").click(function () {
+    $("#toggleContainerPdf").toggle('display');
+  });
+</script><ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="index.html">
+        Virtual Desktop Service documentation
+      </a></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Deploying with VDS</div>
+      </a>
+      <ul><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Azure</div>
+      </a>
+      <ul><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Azure Virtual Desktop</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="Deploying.Azure.AVD.Deploying_AVD_in_Azure.html">
+        Deploying AVD in Azure
+      </a></li><li class=" "><a class="na-navbar-padding" href="Deploying.Azure.AVD.Supplemental_AVD_with_existing_AD.html">
+        Supplemental - AVD with Existing AD
+      </a></li><li class=" "><a class="na-navbar-padding" href="Deploying.Azure.AVD.vds_v5.4_components_and_permissions.html">
+        VDS v5.4 Components and Permissions (AVD)
+      </a></li><li class=" "><a class="na-navbar-padding" href="Deploying.Azure.AVD.vds_v5.4_prerequisites.html">
+        VDS v5.4 Prerequisites (AVD)
+      </a></li><li class=" "><a class="na-navbar-padding" href="Deploying.Azure.AVD.vds_v6.0_prerequisites.html">
+        VDS v6.0 Prerequisites (AVD)
+      </a></li></ul></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Google</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="Deploying.GCP.RDS.deploying_rds_in_gcp.html">
+        Deploying RDS in Google
+      </a></li><li class=" "><a class="na-navbar-padding" href="Deploying.GCP.vds_v5.4_prerequisites.html">
+        VDS v5.4 Prerequisites (RDS/GCP)
+      </a></li></ul></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Architectural</div>
+      </a>
+      <ul><li class="subfolders "><a href="Architectural.change_data_layer.html">
+        <div class="na-navbar-padding"> Change Data Layer</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="Architectural.change_data_layer.Azure_Files.html">
+        Azure Files
+      </a></li></ul></li><li class=" "><a class="na-navbar-padding" href="Architectual.migrate_data_into_vds.html">
+        Migrate Data into VDS
+      </a></li><li class=" "><a class="na-navbar-padding" href="Architectual.upgrade_AVD_v1_to_v2.html">
+        Upgrade AVD v1 to v2
+      </a></li><li class=" "><a class="na-navbar-padding" href="Architectural.Wildcard_SSL_certificate_renewal_process.html">
+        Renew SSL Certificate
+      </a></li><li class=" "><a class="na-navbar-padding" href="Architectural.AVD_teardown_guide.html">
+        VDS Teardown Guide
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Management</div>
+      </a>
+      <ul><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Deployments</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="Management.Deployments.provisioning_collections.html">
+        Provisioning Collections
+      </a></li><li class=" "><a class="na-navbar-padding" href="Management.Deployments.logical_hierarchy_overview.html">
+        VDS Logical Hierarchy Overview
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Applications</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="Management.Applications.application_entitlement_workflow.html">
+        App Entitlement for RDS
+      </a></li><li class=" "><a class="na-navbar-padding" href="Management.Applications.AVD_application_entitlement_workflow.html">
+        App Entitlement for AVD
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Scripted Events</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="Management.Scripted_Events.scripted_events.html">
+        Scriped Events Overview
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Command Center</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="Management.command_center.overview.html">
+        Management Command Center Overview
+      </a></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Operations</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="Management.command_center.operations.copy_template_to_gallery.html">
+        Copy Template to Gallery
+      </a></li></ul></li></ul></li><li class=" "><a class="na-navbar-padding" href="Management.Cost_Optimization.workload_schedule.html">
+        Configure Cost Optimization
+      </a></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> User Administration</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="Management.User_Administration.manage_user_accounts.html">
+        Manage User Accounts
+      </a></li><li class=" "><a class="na-navbar-padding" href="Management.User_Administration.manage_folders_and_permissions.html">
+        Manage Folders and Permissions
+      </a></li><li class=" "><a class="na-navbar-padding" href="Management.Applications.application_entitlement_workflow.html">
+        Manage Application Access
+      </a></li><li class=" "><a class="na-navbar-padding" href="Management.User_Administration.reset_user_password.html">
+        Reset User Passwords
+      </a></li><li class=" "><a class="na-navbar-padding" href="Management.User_Administration.multi-factor_authentication.html">
+        Configure MFA
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> System Administration</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="Management.System_Administration.create_domain_admin_account.html">
+        Create Domain Admin Account
+      </a></li><li class=" "><a class="na-navbar-padding" href="Management.System_Administration.provide_3rd_party_access.html">
+        Provide 3rd Party Access
+      </a></li><li class=" "><a class="na-navbar-padding" href="Management.System_Administration.configure_backup.html">
+        Configure Backup
+      </a></li><li class=" "><a class="na-navbar-padding" href="Management.System_Administration.clone_virtual_machines.html">
+        Clone Virtual Machines
+      </a></li><li class=" "><a class="na-navbar-padding" href="Management.System_Administration.auto_add_disk_space.html">
+        Auto Add Disk Space
+      </a></li><li class=" "><a class="na-navbar-padding" href="Management.System_Administration.azure_key_vault.html">
+        Azure Key Vault
+      </a></li><li class=" "><a class="na-navbar-padding" href="Management.System_Administration.configure_antivirus.html">
+        Configure Antivirus
+      </a></li><li class=" "><a class="na-navbar-padding" href="Management.System_Administration.adding_moving_mapped_drives.html">
+        Adding and Moving Mapped Drives
+      </a></li></ul></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Troubleshooting</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="Troubleshooting.reviewing_vds_logs.html">
+        Reviewing VDS logs
+      </a></li><li class=" "><a class="na-navbar-padding" href="Troubleshooting.internet_connection_quality.html">
+        Internet Connection Quality
+      </a></li><li class=" "><a class="na-navbar-padding" href="Troubleshooting.enable_user_wallpaper.html">
+        Enable User Wallpaper
+      </a></li><li class=" "><a class="na-navbar-padding" href="Troubleshooting.printing_issues.html">
+        Printing Issues
+      </a></li><li class=" "><a class="na-navbar-padding" href="Troubleshooting.azure_vcpu_core_quota.html">
+        Azure vCPU Core Quota
+      </a></li><li class=" "><a class="na-navbar-padding" href="Troubleshooting.unlocking_user_accounts.html">
+        Unlock User Account
+      </a></li><li class=" "><a class="na-navbar-padding" href="Troubleshooting.general_vm_performance.html">
+        General VM Performance
+      </a></li><li class=" "><a class="na-navbar-padding" href="Troubleshooting.dns_forwarding_for_azure_aadds_sso.html">
+        DNS Forwarding for Azure ADDS & SSO
+      </a></li><li class=" "><a class="na-navbar-padding" href="Troubleshooting.application_issues.html">
+        Application Issues
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Reference</div>
+      </a>
+      <ul><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Release notes</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="Reference.Release_Notes.vds_v6.0_release_notes.html">
+        VDS v6.0 release notes
+      </a></li><li class=" "><a class="na-navbar-padding" href="Reference.Release_Notes.vds_v5.4_release_notes.html">
+        VDS v5.4 release notes
+      </a></li><li class=" "><a class="na-navbar-padding" href="Reference.Release_Notes.vds_windows_client_release_notes.html">
+        VDS Windows client release notes
+      </a></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Previous versions</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="Reference.Release_Notes.vds_v5.3_release_notes.html">
+        VDS v5.3 release notes
+      </a></li><li class=" "><a class="na-navbar-padding" href="Reference.Release_Notes.cwms_v5.2_release_notes.html">
+        CWMS v5.2 release notes
+      </a></li><li class=" "><a class="na-navbar-padding" href="Reference.Release_Notes.cws_v5.1_release_notes.html">
+        CWS v5.1 release notes
+      </a></li><li class=" "><a class="na-navbar-padding" href="Reference.Release_Notes.cws_v5.0_release_notes.html">
+        CWS v5.0 release notes
+      </a></li></ul></li></ul></li><li class=" "><a class="na-navbar-padding" href="Reference.end_user_access.html">
+        End user access
+      </a></li><li class=" "><a class="na-navbar-padding" href="Reference.vds_change_environments.html">
+        VDS change environments
+      </a></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Script Library Documentation</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="scriptlibrary.AdobeReader.html">
+        Adobe Reader DC
+      </a></li><li class=" "><a class="na-navbar-padding" href="scriptlibrary.AMDRadeonInstinctDrivers.html">
+        AMD Radeon Instinct Drivers
+      </a></li><li class="  active "><a class="na-navbar-padding" href="scriptlibrary.EzeepPrintApp.html">
+        Ezeep Print App
+      </a></li><li class=" "><a class="na-navbar-padding" href="scriptlibrary.GoogleChrome.html">
+        Google Chrome
+      </a></li><li class=" "><a class="na-navbar-padding" href="scriptlibrary.MicrosoftEdgeChromium.html">
+        Microsoft Edge Chromium
+      </a></li><li class=" "><a class="na-navbar-padding" href="scriptlibrary.MicrosoftOffice365.html">
+        Microsoft Office 365
+      </a></li><li class=" "><a class="na-navbar-padding" href="scriptlibrary.MicrosoftOneDrive.html">
+        Microsoft One Drive
+      </a></li><li class=" "><a class="na-navbar-padding" href="scriptlibrary.MicrosoftTeams.html">
+        Microsoft Teams
+      </a></li><li class=" "><a class="na-navbar-padding" href="scriptlibrary.MicrosoftTeamsAVD.html">
+        Microsoft Teams for AVD
+      </a></li><li class=" "><a class="na-navbar-padding" href="scriptlibrary.NvidiaCudaDrivers.html">
+        Nvidia Cuda Drivers
+      </a></li><li class=" "><a class="na-navbar-padding" href="scriptlibrary.NvidiaGridDrivers.html">
+        Nvidia Grid Drivers
+      </a></li><li class=" "><a class="na-navbar-padding" href="scriptlibrary.AVDScreenCaptureProtection.html">
+        AVD Screen Capture Protection
+      </a></li><li class=" "><a class="na-navbar-padding" href="scriptlibrary.ZoomVDI-AVD.html">
+        Zoom for AVD
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Advanced</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="Advanced.fslogix_profile_shrink.html">
+        FSLogix Profile Shrink
+      </a></li></ul></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> NetApp VDS v5.4 videos</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="video_content_netapptv.html">
+        NetApp TV content
+      </a></li><li class=" "><a class="na-navbar-padding" href="video_azure_AVDRDS_deploy_54.html">
+        Deploy AVD or RDS
+      </a></li><li class=" "><a class="na-navbar-padding" href="video_azure_AVD_hostpool_54.html">
+        Add AVD host pool in Azure
+      </a></li><li class=" "><a class="na-navbar-padding" href="video_azure_AVD_users_appgroups_54.html">
+        Manage AVD users and app groups
+      </a></li><li class=" "><a class="na-navbar-padding" href="video_azure_AVDRDS_optimize_resources_54.html">
+        Managing resources and minimizing costs
+      </a></li><li class=" "><a class="na-navbar-padding" href="video_VDS_day_in_the_life.html">
+        Automate application management for AVD and RDS
+      </a></li><li class=" "><a class="na-navbar-padding" href="Architectual.upgrade_AVD_v1_to_v2.html">
+        Upgrade v1 AVD host pool to v2
+      </a></li></ul></li></ul>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+  </div>
+  
+
+  <div class="ie-content-pane n-doc__component-detail-content n-doc__component-detail-content--show-code">
+    <!-- Begin of page container -->
+    <article class="page-content">
+      
+
+
+
+<div class="n-doc__component-detail-heading-wrap">
+  <h1 class="n-doc__component-detail-heading">Scripted Event Documentation - Ezeep Print App</h1>
+</div>
+
+
+<p class="page-details">
+  
+    
+    <time datetime="2021-02-19 19:36:23 +0000">02/19/2021</time>
+    
+  
+
+<span>Contributors
+  <a target="_blank" href="https://github.com/tvanroo">
+    <img  class="avatar avatar-small"
+          alt="tvanroo"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/29737083?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
+</span>
+
+
+  <span>
+    <a target="_blank" href="/us-en/virtual-desktop-service/pdfs/pages/scriptlibrary.EzeepPrintApp.pdf" role="button">
+      <img src="/us-en/virtual-desktop-service/images/pdf.png" width="20" height="20"/>Download PDF of this page</a>
+  </span>
+
+
+</p>
+
+
+<div class="sect1">
+<h2 id="global-scripts-overview">Global Scripts Overview</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>NetApp VDS includes a library of pre-defined scripted events that can be used directly in VDS environments and/or duplicated and used as the building blocks for custom scripted events.</p>
+</div>
+<div class="paragraph">
+<p>For this application, this article covers both the install/enable and uninstall/disable action.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="global-script-use">Global Script Use</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Built-in scripted events such as this one are pre-populated, checking the "global" filter checkbox will display them.</p>
+</div>
+<div class="paragraph">
+<p>Global Scripted Events such as this one are read-only. They can be used as-is or the "Clone" function can be used to create a customer copy for editing and use.</p>
+</div>
+<div class="paragraph">
+<p>The Clone button is found in the action menu on the Scripted Events page.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="./media/scriptlibrary.overview-2ccb2.png" alt="scriptlibrary.overview 2ccb2" width="75%">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="ezeep-print-app-overview">Ezeep Print App overview</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This script package installs/uninstalls <em>Ezeep Print App</em> using the Chocolatey package manager (<a href="https://chocolatey.org/" class="bare">https://chocolatey.org/</a>) to do the deployment. Chocolatey is deployed by VDS when VMs are created but this script will also check and install Chocolatey as a prerequisite if it is missing.</p>
+</div>
+<div class="sect2">
+<h3 id="default-shortcut-path">Default shortcut path</h3>
+<div class="paragraph">
+<p>The default shortcut path will be entered below, for this application the shortcut is: <code>\\shortcuts\Printer Self Service.lnk</code></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="add-activity-dialog-window-screenshot">Add activity dialog window screenshot</h3>
+<div class="imageblock">
+<div class="content">
+<img src="./media/scriptlibrary.activity.InstallEzeepPrintApp.png" alt="scriptlibrary.activity.InstallEzeepPrintApp" width="75%">
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="add-application-installuninstall-activity">Add application install/uninstall activity</h3>
+<div class="paragraph">
+<p>In order for a script in the repository to take any action, an activity must be created to associate that script with a selected trigger. In this example activity will install/uninstall this application when the app is added to or removed from the workspace (from the <em>Workspace &gt; Applications</em> page in VDS).</p>
+</div>
+<div class="paragraph">
+<p>VDS scripted events offers many other types of activity triggers such as <em>Create Server</em> which could be used as an alternative to the <em>Application Install</em> (or <em>Application Uninstall</em>) event type. Using <em>Create Server</em> would simply run this app install against all newly created VMs in VDS. <em>Create Server</em> and other triggers are documented and can be explored <a href="Management.Scripted_Events.scripted_events.html">here</a>.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+This application will need to be present in the VDS application library.  This <a href="Management.Applications.application_entitlement_workflow.html#add-applications-to-the-app-catalog">section</a> of the app entitlement for RDS article covers adding apps to the library.
+</td>
+</tr>
+</table>
+</div>
+<div class="olist arabic">
+<div class="title">To create an activity and link this script to an action:</div>
+<ol class="arabic">
+<li>
+<p>Navigate to the <em>Scripted Events</em> section in VDS</p>
+</li>
+<li>
+<p>Under <em>Activities</em> click <em>+ Add Activity</em></p>
+</li>
+<li>
+<p>In the opened dialog window enter the following information:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Name:</strong> Name this activity</p>
+</li>
+<li>
+<p><strong>Description:</strong> Optionally enter a description</p>
+</li>
+<li>
+<p><strong>Deployment</strong> Select the desired deployment from dropdown</p>
+</li>
+<li>
+<p><strong>Script:</strong> Select the install (or uninstall) script from the dropdown.  This could be the global script or customer script you&#8217;ve cloned and customized.</p>
+</li>
+<li>
+<p><strong>Arguments:</strong> Leave blank</p>
+</li>
+<li>
+<p><strong>Enabled checkbox:</strong> <code>Check</code> the box</p>
+</li>
+<li>
+<p><strong>Event Type:</strong> Select <code>Application Install</code> (or Application Uninstall) from dropdown</p>
+</li>
+<li>
+<p><strong>Application:</strong> Select this application from dropdown</p>
+</li>
+<li>
+<p><strong>Shortcut Path:</strong> Enter the default shortcut path for this application (noted above)</p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+
+    </article>
+    <!-- Page Container -->
+  </div>
+
+  
+  <!-- Start Page Toolbar -->
+  <div class="page-nav-toolbar">
+    <div class="page-nav-contribute"  >
+      <div class="page-nav-contribute-title">CONTRIBUTE</div>
+      <a target="_blank" href="https://github.com/NetAppDocs/virtual-desktop-service/blob/main/sub.scriptlibrary.EzeepPrintApp.adoc" class="btn btn-default githubEditButton" role="button"><img src="/us-en/virtual-desktop-service/images/github.png" class="github-icon" />Edit on GitHub</a>
+      <a target="_blank" href="https://github.com/NetAppDocs/virtual-desktop-service/issues/new?body=Page%3A%20[Scripted Event Documentation - Ezeep Print App](https://docs.netapp.com/us-en/virtual-desktop-service/scriptlibrary.EzeepPrintApp.html)" class="btn btn-default githubEditButton" role="button"><img src="/us-en/virtual-desktop-service/images/github.png" class="github-icon" />Request doc changes</a>
+      <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  >Contributor's Guide</a>
+    </div>
+    <div class="page-nav-container">
+      <nav class="page-nav-fixed">
+        <div class="page-nav-title">ON THIS PAGE</div>
+        <div class="page-nav-links">
+          <ul class="page-nav-inner" id="page-menu"></ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  
+  <div style="clear: both"></div><!-- Main needs to have height -->
+</div>
+
+        </main>
+
+        <footer class="n-footer">
+  <div class="n-footer__bottom">
+    <div class="n-container">
+      <div class="n-footer__bottom-left">
+
+        <div class="n-footer__copyright">
+          <ul class="n-footer__copyright-list">
+            <li class="n-footer__copyright-link">
+            <a href="https://www.netapp.com/us/legal/copyright.aspx">© 2021 NetApp, Inc.</a>
+            </li>
+
+</ul>
+</div>
+<div class="n-footer__social-links">
+<ul class="n-footer__social-link-list">
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-blog" href="https://blog.netapp.com" target="_blank" title="blog" alt="blog">
+<span class="n-footer__social-link-text">blog</span>
+<svg class="n-icon-blog n-footer__social-link-icon" aria-labelledby="title">
+  <title>blog@</title>
+  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/us-en/virtual-desktop-service/common/svg/sprite.svg#blog"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-community" href="https://community.netapp.com/" target="_blank" title="community" alt="community">
+<span class="n-footer__social-link-text">community</span>
+<svg class="n-icon-community n-footer__social-link-icon" aria-labelledby="title">
+<title>community@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/us-en/virtual-desktop-service/common/svg/sprite.svg#comments"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-twitter" href="https://twitter.com/netapp" target="_blank" title="twitter" alt="twitter">
+<span class="n-footer__social-link-text">twitter</span>
+<svg class="n-icon-twitter n-footer__social-link-icon" aria-labelledby="title">
+<title>twitter@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/us-en/virtual-desktop-service/common/svg/sprite.svg#twitter"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-facebook" href="https://www.facebook.com/NetApp" target="_blank" title="facebook" alt="facebook">
+<span class="n-footer__social-link-text">facebook</span>
+<svg class="n-icon-facebook n-footer__social-link-icon" aria-labelledby="title">
+<title>facebook@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/us-en/virtual-desktop-service/common/svg/sprite.svg#facebook"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-linkedin" href="https://www.linkedin.com/company/netapp" target="_blank" title="linkedin" alt="linkedin">
+<span class="n-footer__social-link-text">linkedin</span>
+<svg class="n-icon-linkedin n-footer__social-link-icon" aria-labelledby="title">
+<title>linkedin@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/us-en/virtual-desktop-service/common/svg/sprite.svg#linkedin"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-youtube" href="https://www.youtube.com/user/NetAppTV" target="_blank" title="youtube" alt="youtube">
+<span class="n-footer__social-link-text">youtube</span>
+<svg class="n-icon-youtube n-footer__social-link-icon" aria-labelledby="title">
+<title>youtube@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/us-en/virtual-desktop-service/common/svg/sprite.svg#youtube"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-slideshare" href="https://www.slideshare.net/NetApp" target="_blank" title="slideshare" alt="slideshare">
+<span class="n-footer__social-link-text">slideshare</span>
+<svg class="n-icon-slideshare n-footer__social-link-icon" aria-labelledby="title">
+<title>slideshare@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/us-en/virtual-desktop-service/common/svg/sprite.svg#slideshare"></use>
+</svg>
+
+</a>
+</li>
+</ul>
+</div>
+
+</div>
+<div class="n-footer__bottom-right">
+  <p class="n-footer__fine-print">Have feedback for our website?<a target="_self" href="javascript:netapp_mailto()" class="n-footer__copyright">Let us know</a>
+  <a href="https://docs.netapp.com/us-en/announcements/" class="n-footer__copyright">Announcements</a>
+  </p>
+</div>
+</div>
+</div>
+</footer>
+
+      </div>
+
+      <!-- Elasticsearch JS -->
+      <script type="text/javascript" src='/us-en/virtual-desktop-service/js/bundle.js'></script>
+
+      <!-- Syntax Highlighting -->
+      <script type="text/javascript" src='/us-en/virtual-desktop-service/js/prism.js'></script>
+      <script type="text/javascript" src='/us-en/virtual-desktop-service/js/prism-curl.js'></script>
+    </div>
+    <script>
+      document.body.offsetWidth=1903;
+      cookieLaw = {}
+      cookieLaw.euCountry = "US";
+      cookieLaw.invoke = function(){return false;}
+    </script>
+    <script src='/us-en/virtual-desktop-service/js/www-ntap.js'></script>
+    <script src='/us-en/virtual-desktop-service/js/tabbed-blocks.js'></script>
+  </body>
+
+  
+</html>

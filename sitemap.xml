@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  
+    
+    
+  
+
+  
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/</loc>
+      
+      <lastmod>2021-06-21T18:44:23+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service//search.html</loc>
+      
+      <lastmod>2021-07-20T17:55:57+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Advanced.fslogix_profile_shrink.html</loc>
+      
+      <lastmod>2021-05-10T16:18:09+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Architectual.migrate_data_into_vds.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Architectual.upgrade_AVD_v1_to_v2.html</loc>
+      
+      <lastmod>2021-06-11T15:57:27+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Architectural.Wildcard_SSL_certificate_renewal_process.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Architectural.AVD_teardown_guide.html</loc>
+      
+      <lastmod>2021-06-15T16:23:03+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Architectural.change_data_layer.Azure_Files.html</loc>
+      
+      <lastmod>2021-04-14T15:07:53+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Architectural.change_data_layer.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Deploying.Azure.AVD.Azure_Marketplace.html</loc>
+      
+      <lastmod>2021-06-09T17:10:58+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Deploying.Azure.AVD.Deploying_AVD_in_Azure.html</loc>
+      
+      <lastmod>2021-06-09T17:10:58+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Deploying.Azure.AVD.Deploying_AVD_in_Azure_v6.html</loc>
+      
+      <lastmod>2021-06-09T17:10:58+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Deploying.Azure.AVD.Supplemental_AVD_with_existing_AD.html</loc>
+      
+      <lastmod>2021-06-09T17:10:58+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Deploying.Azure.AVD.vds_v5.4_components_and_permissions.html</loc>
+      
+      <lastmod>2021-06-09T17:10:58+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Deploying.Azure.AVD.vds_v5.4_prerequisites.html</loc>
+      
+      <lastmod>2021-06-09T17:10:58+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Deploying.Azure.AVD.vds_v6.0_prerequisites.html</loc>
+      
+      <lastmod>2021-06-09T17:10:58+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Deploying.GCP.RDS.deploying_rds_in_gcp.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Deploying.GCP.vds_v5.4_prerequisites.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Management.Applications.application_entitlement_workflow.html</loc>
+      
+      <lastmod>2021-01-07T22:06:39+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Management.Applications.AVD_application_entitlement_workflow.html</loc>
+      
+      <lastmod>2021-06-15T16:23:03+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Management.Applications.install_office_365.html</loc>
+      
+      <lastmod>2021-01-07T22:06:39+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Management.Cost_Optimization.workload_schedule.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Management.Deployments.logical_hierarchy_overview.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Management.Deployments.provisioning_collections.html</loc>
+      
+      <lastmod>2021-06-11T15:57:27+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Management.Scripted_Events.scripted_events.html</loc>
+      
+      <lastmod>2021-01-12T20:41:46+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Management.System_Administration.adding_moving_mapped_drives.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Management.System_Administration.auto_add_disk_space.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Management.System_Administration.azure_key_vault.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Management.System_Administration.clone_virtual_machines.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Management.System_Administration.configure_antivirus.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Management.System_Administration.configure_backup.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Management.System_Administration.create_domain_admin_account.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Management.System_Administration.privileged.account.management.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Management.System_Administration.provide_3rd_party_access.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Management.User_Administration.manage_folders_and_permissions.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Management.User_Administration.manage_user_accounts.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Management.User_Administration.multi-factor_authentication.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Management.User_Administration.reset_user_password.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Management.Applications.application_entitlement_workflow.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Management.command_center.operations.copy_template_to_gallery.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Management.command_center.overview.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Reference.Release_Notes.cwms_v5.2_release_notes.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Reference.Release_Notes.cws_v5.0_release_notes.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Reference.Release_Notes.cws_v5.1_release_notes.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Reference.Release_Notes.vds_v5.3_release_notes.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Reference.Release_Notes.vds_v5.4_release_notes.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Reference.Release_Notes.vds_v6.0_release_notes.html</loc>
+      
+      <lastmod>2021-06-15T16:23:03+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Reference.Release_Notes.vds_windows_client_release_notes.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Reference.end_user_access.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Reference.vds_change_environments.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Troubleshooting.application_issues.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Troubleshooting.azure_vcpu_core_quota.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Troubleshooting.dns_forwarding_for_azure_aadds_sso.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Troubleshooting.enable_user_wallpaper.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Troubleshooting.general_vm_performance.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Troubleshooting.internet_connection_quality.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Troubleshooting.printing_issues.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Troubleshooting.reviewing_vds_logs.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Troubleshooting.unlocking_user_accounts.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/Unlisted.Whats_with_all_these_emails.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/whats-next.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/</loc>
+      
+      <lastmod>2021-06-16T19:52:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/scriptlibrary.AMDRadeonInstinctDrivers.html</loc>
+      
+      <lastmod>2021-02-19T19:36:23+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/scriptlibrary.AVDScreenCaptureProtection.html</loc>
+      
+      <lastmod>2021-06-09T17:10:58+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/scriptlibrary.AVDShortpath.html</loc>
+      
+      <lastmod>2021-06-09T17:10:58+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/scriptlibrary.AdobeReader.html</loc>
+      
+      <lastmod>2021-02-19T19:36:23+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/scriptlibrary.EzeepPrintApp.html</loc>
+      
+      <lastmod>2021-02-19T19:36:23+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/scriptlibrary.GoogleChrome.html</loc>
+      
+      <lastmod>2021-02-19T19:36:23+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/scriptlibrary.MicrosoftEdgeChromium.html</loc>
+      
+      <lastmod>2021-02-19T19:36:23+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/scriptlibrary.MicrosoftEdgeChromiumOptimizations.html</loc>
+      
+      <lastmod>2021-04-02T18:13:23+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/scriptlibrary.MicrosoftOffice365.html</loc>
+      
+      <lastmod>2021-02-19T19:36:23+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/scriptlibrary.MicrosoftOneDrive.html</loc>
+      
+      <lastmod>2021-02-19T19:36:23+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/scriptlibrary.MicrosoftTeams.html</loc>
+      
+      <lastmod>2021-02-19T19:36:23+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/scriptlibrary.MicrosoftTeamsAVD.html</loc>
+      
+      <lastmod>2021-06-09T17:10:58+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/scriptlibrary.NvidiaCudaDrivers.html</loc>
+      
+      <lastmod>2021-02-19T19:36:23+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/scriptlibrary.NvidiaGridDrivers.html</loc>
+      
+      <lastmod>2021-02-19T19:36:23+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/scriptlibrary.ZoomVDI-AVD.html</loc>
+      
+      <lastmod>2021-06-09T17:10:58+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/video_AVDRDS_app_management_54.html</loc>
+      
+      <lastmod>2021-06-09T17:10:58+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/video_VDS_day_in_the_life.html</loc>
+      
+      <lastmod>2021-06-09T17:10:58+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/video_azure_AVDRDS_deploy_54.html</loc>
+      
+      <lastmod>2021-06-09T17:10:58+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/video_azure_AVDRDS_optimize_resources_54.html</loc>
+      
+      <lastmod>2021-06-09T17:10:58+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/video_azure_AVD_hostpool_54.html</loc>
+      
+      <lastmod>2021-06-09T17:10:58+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/video_azure_AVD_users_appgroups_54.html</loc>
+      
+      <lastmod>2021-06-09T17:10:58+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/video_content_netapptv.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/virtual-desktop-service/video_gemini.html</loc>
+      
+      <lastmod>2021-01-05T21:33:02+00:00</lastmod>
+      
+    </url>
+  
+
+  
+  
+</urlset>
